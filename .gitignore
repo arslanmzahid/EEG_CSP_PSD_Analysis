@@ -1,0 +1,30 @@
+# macOS cruft
+.DS_Store
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+.envrc
+ENV/
+env/
+myvenv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data artifacts (large binary files)
+*.mat
+*.npz
+*.npy
+*.pkl
+data/__pycache__/
